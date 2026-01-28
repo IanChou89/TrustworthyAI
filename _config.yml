@@ -1,8 +1,9 @@
 
-theme: jekyll-theme-chirpy
+
 title: My Blog
 description: Writing about tech, life, and ideas
 author: Ian Chou
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
