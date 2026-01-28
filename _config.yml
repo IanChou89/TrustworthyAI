@@ -1,4 +1,18 @@
+
+theme: jekyll-theme-chirpy
 title: My Blog
 description: Writing about tech, life, and ideas
-author: aaa
-theme: minima
+author: Ian Chou
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+title: TrustworthyAI
+tagline: Research & notes on trustworthy AI
+url: "https://yourusername.github.io"
+baseurl: "/your-repo-name"
+
+timezone: UTC
+lang: en
+
