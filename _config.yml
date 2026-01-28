@@ -1,19 +1,23 @@
+title: TrustworthyAI
+description: Research, notes, and thoughts on trustworthy AI
+url: "https://YOUR_GITHUB_USERNAME.github.io"
+baseurl: "/YOUR_REPO_NAME"
 
+remote_theme: mmistakes/minimal-mistakes
 
-title: My Blog
-description: Writing about tech, life, and ideas
-author: Ian Chou
-theme: jekyll-theme-chirpy
+author:
+  name: TrustworthyAI
+  bio: Research on reliable, ethical, and robust AI
+  location: Internet
+
+minimal_mistakes_skin: dark
+
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
-title: TrustworthyAI
-tagline: Research & notes on trustworthy AI
-url: "https://yourusername.github.io"
-baseurl: "/your-repo-name"
+  - jekyll-sitemap
 
+markdown: kramdown
+permalink: /:categories/:title/
 timezone: UTC
-lang: en
-
