@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "My First Blog Post"
 date: 2026-01-28
+categories: [AI, Research]
+tags: [trustworthy-ai, ethics]
 ---
 
 Hello world 👋  
