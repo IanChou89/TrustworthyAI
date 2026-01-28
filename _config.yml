@@ -1,7 +1,7 @@
 title: TrustworthyAI
 description: Research, notes, and thoughts on trustworthy AI
-url: "https://YOUR_GITHUB_USERNAME.github.io"
-baseurl: "/YOUR_REPO_NAME"
+url: "https://ianchou89.github.io/TrustworthyAI/"
+baseurl: "/TrustworthyAI"
 
 remote_theme: mmistakes/minimal-mistakes
 
