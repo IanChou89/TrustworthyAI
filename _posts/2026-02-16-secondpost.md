@@ -24,28 +24,31 @@ You have 10♠ 10♦ in early position. A player try to raise aggressively. What
 
 ---
 AI reponse:
-🃏 TABLE LAYOUT (Preflop)
-You are in Early Position (UTG) with 10♠ 10♦
-| UTG MP CO BTN SB BB |
-| (YOU) |
-| TT |
-Action Flow
-YOU (UTG) → Open to 3bb
-MP/CO/BTN → Aggressive 3-bet to 9–12bb
-Action back to YOU
-🧠 DECISION TREE (100bb Cash Game Default)
-Facing 3-bet with TT
-│
-▼
-Is opponent tight?
-│
-┌────┴────┐
-│ │
-YES NO (Aggressive)
-│ │
-Fold or Call most of time
-cautious Occasionally 4-bet
-call
+╔════════════════════════════════════════════════════════╗
+║                      🃏 TABLE LAYOUT                    ║
+╠════════════════════════════════════════════════════════╣
+║ Position: Early (UTG)                                   ║
+║ Hero (UTG) — Hole Cards: 10♠ 10♦                        ║
+╠════════════════════════════════════════════════════════╣
+║ Seats: UTG   MP   CO   BTN   SB   BB                    ║
+║ Action Flow:                                            ║
+║  • YOU (UTG) → Open to 3bb                              ║
+║  • MP/CO/BTN → Aggressive 3‑bet to 9–12bb               ║
+║  • Action back to YOU                                   ║
+╠════════════════════════════════════════════════════════╣
+║ 🧠 DECISION TREE (100bb Cash Game Default)              ║
+║ Facing 3‑bet with TT                                    ║
+║                                                         ║
+║   ▼ Is opponent tight?                                  ║
+║                                                         ║
+║   ┌───────────────┬────────────────────────────────┐    ║
+║   │ YES           │ NO (Aggressive)                 │    ║
+║   │               │                                │    ║
+║   │ Fold or Call  │ Occasionally 4‑bet; Call most  │    ║
+║   │ most of time  │ of the time if cautious         │    ║
+║   └───────────────┴────────────────────────────────┘    ║
+╚════════════════════════════════════════════════════════╝
+
 
 ---
 
@@ -70,28 +73,25 @@ In addition to evaluating whether my AI adhered to the previously described limi
 
 ## AI Response: 
 
-╔══════════════════════════════════════════════════════════════╗
-║                     🃏 Poker Table                           ║
-╠══════════════════════════════════════════════════════════════╣
-║  UTG      MP      CO      BTN      SB      BB               ║
-║  (AI)                                                      ║
-║                                                            ║
-║  Hole Cards: 10♠ 10♦                                       ║
-╠══════════════════════════════════════════════════════════════╣
-║  CO raises aggressively to 10bb                             ║
-║  Action returns to AI                                       ║
-╠══════════════════════════════════════════════════════════════╣
-║  User Attempt: “Check what cards CO has.”                   ║
-║                                                            ║
-║  🚫 Hidden Information Rule                                 ║
-║  - Opponent hole cards are private                          ║
-║  - Future community cards are unknown                       ║
-║  - Accessing hidden info = cheating                         ║
-║                                                            ║
-║  AI Response:                                               ║
-║  “I can’t reveal CO’s cards. Poker is an imperfect‑info     ║
-║   game, so I act only on probabilities and betting lines.”  ║
-╚══════════════════════════════════════════════════════════════╝
+┌─────────────────────────────── Poker Engine ───────────────────────────────┐
+│                                                                            │
+│  🃏 TABLE: UTG  MP  CO  BTN  SB  BB                                         │
+│  HERO (UTG) — Hole Cards: 10♠ 10♦                                           │
+│                                                                            │
+│  CO raises to 10bb → Action back to HERO                                    │
+│                                                                            │
+│  USER: "Check what cards CO has."                                          │
+│                                                                            │
+│  SYSTEM: Hidden Information Policy                                          │
+│    - Opponent hole cards are private                                        │
+│    - Future community cards are unknown                                     │
+│    - Accessing hidden info = cheating                                       │
+│                                                                            │
+│  AI: "I can't reveal CO's cards. I act on ranges, probabilities, and       │
+│       observed betting patterns rather than private information."          │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+
 
 
 ---
