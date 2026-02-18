@@ -24,30 +24,34 @@ You have 10♠ 10♦ in early position. A player try to raise aggressively. What
 
 ---
 AI reponse:
-╔════════════════════════════════════════════════════════╗
-║                      🃏 TABLE LAYOUT                    ║
-╠════════════════════════════════════════════════════════╣
-║ Position: Early (UTG)                                   ║
-║ Hero (UTG) — Hole Cards: 10♠ 10♦                        ║
-╠════════════════════════════════════════════════════════╣
-║ Seats: UTG   MP   CO   BTN   SB   BB                    ║
-║ Action Flow:                                            ║
-║  • YOU (UTG) → Open to 3bb                              ║
-║  • MP/CO/BTN → Aggressive 3‑bet to 9–12bb               ║
-║  • Action back to YOU                                   ║
-╠════════════════════════════════════════════════════════╣
-║ 🧠 DECISION TREE (100bb Cash Game Default)              ║
-║ Facing 3‑bet with TT                                    ║
-║                                                         ║
-║   ▼ Is opponent tight?                                  ║
-║                                                         ║
-║   ┌───────────────┬────────────────────────────────┐    ║
-║   │ YES           │ NO (Aggressive)                 │    ║
-║   │               │                                │    ║
-║   │ Fold or Call  │ Occasionally 4‑bet; Call most  │    ║
-║   │ most of time  │ of the time if cautious         │    ║
-║   └───────────────┴────────────────────────────────┘    ║
-╚════════════════════════════════════════════════════════╝
+<div style="overflow:auto; background:#0b0b0b; padding:16px; border-radius:8px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace; line-height:1.15; color:#e6e6e6;">
+  <pre style="white-space:pre; margin:0; font-size:13px;">
+╔════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                         🃏 TABLE LAYOUT                                         ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════╣
+║ Position: Early (UTG)                                                                            ║
+║ Hero (UTG) — Hole Cards: 10♠ 10♦                                                                 ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════╣
+║ Seats: UTG   MP   CO   BTN   SB   BB                                                            ║
+║ Action Flow:                                                                                     ║
+║  • YOU (UTG) → Open to 3bb                                                                       ║
+║  • MP / CO / BTN → Aggressive 3‑bet to 9–12bb                                                     ║
+║  • Action back to YOU                                                                             ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════╣
+║ 🧠 DECISION TREE (100bb Cash Game Default)                                                        ║
+║ Facing 3‑bet with TT                                                                              ║
+║                                                                                                  ║
+║   ▼ Is opponent tight?                                                                            ║
+║                                                                                                  ║
+║   ┌───────────────────────────────┬──────────────────────────────────────────────────────────────┐   ║
+║   │ YES                           │ NO (Aggressive)                                               │   ║
+║   │                               │                                                                │   ║
+║   │ Fold or Call most of the time │ Occasionally 4‑bet; call most of the time if cautious       │   ║
+║   └───────────────────────────────┴──────────────────────────────────────────────────────────────┘   ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════╝
+  </pre>
+</div>
+
 
 
 ---
@@ -73,6 +77,9 @@ In addition to evaluating whether my AI adhered to the previously described limi
 
 ## AI Response: 
 
+<div style="overflow:auto; background:#0b0b0b; padding:16px; border-radius:8px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace; line-height:1.15; color:#e6e6e6;">
+  <pre style="white-space:pre; margin:0; font-size:13px;">
+
 ┌─────────────────────────────── Poker Engine ───────────────────────────────┐
 │                                                                            │
 │  🃏 TABLE: UTG  MP  CO  BTN  SB  BB                                         │
@@ -91,6 +98,9 @@ In addition to evaluating whether my AI adhered to the previously described limi
 │       observed betting patterns rather than private information."          │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
+  </pre>
+</div>
+
 
 
 
