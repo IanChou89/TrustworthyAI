@@ -60,8 +60,7 @@ Presentation_of_AI_Responses: |
   
   Finally, when I asked for a diagram to link the mechanisms together, the
   AI generated a complete plaintext flowchart mapping the game loop:
-
-  ```text
+  
   =============================================================================
                     THE FRONT OFFICE CCG : CORE RULE MECHANISMS
   =============================================================================
