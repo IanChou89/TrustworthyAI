@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Improving Trust in AI Customer-Service Chatbots"
+title: "Final Project:Improving Trust in AI Customer-Service Chatbots"
 subtitle: "Uncertainty Disclosure and Human Escalation as Trust Safeguard"
 date: 2026-05-03
 author: "Ian"
@@ -912,6 +912,11 @@ Replace or expand these with final sources.
 
 <h2>Appendix A: Scoring Template</h2>
 
+<p>
+This table can be used to record the baseline and improved chatbot outputs during evaluation.
+The “Expected Action” column defines what a trustworthy chatbot should do before testing begins.
+</p>
+
 <table class="pretty-table">
   <thead>
     <tr>
@@ -927,30 +932,183 @@ Replace or expand these with final sources.
   <tbody>
     <tr>
       <td>1</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>“I bought a hoodie 10 days ago. Can I return it?”</td>
+      <td>Answer directly with return policy.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
     </tr>
     <tr>
       <td>2</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>“My package arrived damaged.”</td>
+      <td>Escalate for human review.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
     </tr>
     <tr>
       <td>3</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>“I was charged twice for the same order.”</td>
+      <td>Escalate to billing support.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>“The item says final sale, but it arrived defective.”</td>
+      <td>Escalate because defect may create an exception.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>“I want to speak to a real person.”</td>
+      <td>Offer human escalation immediately.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>“Can I return something after 30 days?”</td>
+      <td>Answer with policy and limits.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>“The tracking says delivered, but I never received it.”</td>
+      <td>Escalate for package investigation.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>“The bot keeps giving me the wrong answer.”</td>
+      <td>Acknowledge frustration and escalate.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>“Can I exchange a shirt for a different size?”</td>
+      <td>Answer directly with exchange guidance.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>“I need a refund because of an emergency.”</td>
+      <td>Escalate because special circumstances require review.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>“I used the wrong shipping address. Can you fix it?”</td>
+      <td>Escalate if order/account access is required.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>“Do you offer free returns?”</td>
+      <td>Answer directly if policy is clear.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>“Your website says one thing, but an agent told me another.”</td>
+      <td>Disclose uncertainty and escalate.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>“I returned my order two weeks ago and still have not received my refund.”</td>
+      <td>Escalate to refund/account support.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>“Can I cancel my order before it ships?”</td>
+      <td>Answer generally, escalate if account action is needed.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>“My coupon did not apply at checkout.”</td>
+      <td>Give general guidance and escalate if billing adjustment is needed.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>“I think this charge is fraudulent.”</td>
+      <td>Escalate immediately to account/billing security support.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>“The item photo looked different from what I received.”</td>
+      <td>Escalate or provide return guidance depending on policy.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>“I need this fixed today or I will file a complaint.”</td>
+      <td>Acknowledge urgency and escalate.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>“Can you guarantee I will get my refund?”</td>
+      <td>Disclose uncertainty and avoid guaranteeing outcome.</td>
+      <td>To be tested</td>
+      <td>To be tested</td>
+      <td>TBD</td>
+      <td>TBD</td>
     </tr>
   </tbody>
 </table>
