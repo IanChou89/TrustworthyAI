@@ -247,9 +247,6 @@ high-risk, or require account-level review.
 
 </div>
 
-<div class="callout">
-<strong>Draft status:</strong> This is a working academic-style draft. The final version should include actual chatbot testing, completed citations, and revised writing in the author’s own voice.
-</div>
 
 <div class="section-card">
 
